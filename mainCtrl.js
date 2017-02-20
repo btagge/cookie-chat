@@ -16,27 +16,6 @@ chatroom.controller('mainCtrl', function($scope, messageService) {
        $scope.message = angular.copy('');
         });
     }
-
-
-    
-    
-   
-
-
- 
-    
-
-    // $scope.reset = function() {
-    //   // Example with 1 argument
-    //   $scope.user = angular.copy($scope.master);
-    // };
-
-    // $scope.update = function(user) {
-    //   // Example with 2 arguments
-    //   angular.copy(user, $scope.master);
-    // };
-
-    // $scope.reset();
  
   
    setInterval(function(){
